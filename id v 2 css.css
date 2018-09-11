@@ -1,0 +1,308 @@
+body {
+    background-image: linear-gradient(#62929A, #dbdbdb 600px);
+    font-family: Dosis;
+}
+.matkaav {
+    width: 690px;
+    height: 300px;
+    margint-top: 30px;
+    position: absolute;
+    left: 47%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+
+}
+.matkaav2 {
+    width: 495px;
+    height: 300px;
+    margin-top: 30px;
+    position: absolute;
+    left: 47%;
+    top: 57%;
+    transform: translate(-50%, -50%);
+}
+.av {
+    width: 200px;
+    height: 300px;
+    border: 3px solid #62929a;
+    cursor: pointer;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+
+}
+.av:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    z-index: 1;
+    filter: none;
+}
+
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #363434;
+    opacity: 0.9;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    text-decoration: none;
+    color: #c2c2c2;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+        text-decoration: none;
+        color: #DBDBDB;
+    }
+}
+
+.overlay-content2 {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.overlay-content3 {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.overlay-content4 {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.overlay-content5 {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+#av {
+    width: 200px;
+    height: 300px;
+    background-image: url(https://via.placeholder.com/200x300);
+    border: 3px solid #4B7076;
+    margin-top: -200px;
+    margin-left: 600px;
+}
+#id {
+    color: #629a99;
+    font-weight: bold;
+    letter-spacing: 6px;
+    margin-left: 100px;
+    margin-top: -370px;
+}
+#infopl1 {
+    width: 206px;
+    height: 50px;
+    background-color: #1c1b1b;
+    color: #629a99;
+    border-bottom: 4px double #62929a;
+    border-top: 4px double #62929a;
+    margin-left: 600px;
+    margin-top: 10px;
+    line-height: 50px;
+    text-transform: uppercase;
+
+}
+#infopldziecko {
+    width: 348px;
+    height: 50px;
+    background-color: #1c1b1b;
+    color: #4E7B7A;
+    font-size: 33px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    line-height: 50px;
+    border-top: 4px double #4e7b7a;
+    border-bottom: 4px double #4B7076;
+    text-transform: uppercase;
+
+}
+.infopl2 {
+    width: 348px;
+    height: 338px;
+    background-color: #626061;
+    margin-top: 10px;
+    margin-left: 830px;
+    margin-bottom: 20px;
+    border-bottom: 4px double #1c1b1b;
+}
+.infopl3 {
+    width: 558px;
+    height: 40px;
+    color: #629a99;
+    background-color: #1c1b1b;
+    line-height: 40px;
+    text-align: right;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 4px double #4e7b7a;
+    border-bottom: 4px double #4e7b7a;
+    margin-left: 600px;
+    text-transform: uppercase;
+
+}
+.pltext {
+    width: 532px;
+    height: 700px;
+    background-color: #626061;
+    color: #DBDBDB;
+    padding: 20px;
+    border-left: 3px dashed #4e7b7a;
+    border-right: 3px dashed #4e7b7a;
+    margin-left: 600px;
+    margin-bottom: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{width:8px;}
+::-webkit-scrollbar-thumb{background: #363434; border-radius:0px;}
+#ramka {
+    width: 265px;
+    height: 290px;
+    float: left;
+    border-right: 3px dotted #343434;
+}
+#ramka2 {
+    width: 245px;
+    height: 290px;
+    background-color: #626061;
+    float: right;
+    margin-top: -290px;
+    padding-left: 20px;
+}
+#pl2ramka {
+    width: 170px;
+    height: 250px;
+}
+#pl2ramkadwa {
+    width: 170px;
+    height: 250px;
+    margin-top: -270px;
+    margin-left: 190px;
+}
+.malegowno {
+    width: 70px;
+    height: 30px;
+    background-color: #1c1b1b;
+    color: #62929a;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+}
+.skill {
+    background-color: #363434;
+    padding-right: 10px;
+    margin-bottom: 5px;
+    margin-top: -5px;
+    text-align: right;
+    padding-left: 10px;
+    height: 20px;
+    padding-bottom: 2px;
+}
+.nazwyskill {
+    font-size: 14px;
+    float: left;
+    margin: 0;
+    margin-top: -4px;
+    color: #363434;
+    font-weight: bolder;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+
+}
+#Sila {
+    width: 50%;
+    background-color: #62929a;
+}
+#Wytzyymalosc {
+    width: 40%;
+    background-color: #62929a;
+}
+#Zwinnosc {
+    width: 30%;
+    background-color: #62929a;
+}
+#Percepcja {
+    width: 20%;
+    background-color: #62929a;
+}
+#charyzma {
+    width: 10%;
+    background-color: #62929a;
+}
+#roztropnosc {
+    width: 60%;
+    background-color: #62929a;
+}
+#inteligencja {
+    width: 80%;
+    background-color: #62929a;
+}
+#ramkachar {
+    width: 265px;
+    height: 280px;
+    float: left;
+    border-right: 3px dotted #343434;
+}
+#ramka2char {
+    width: 265px;
+    height: 280px;
+    float: right;
+    margin-top: -280px;
+    padding-left: 20px;
+}
+#ramkawyg {
+    width: 265px;
+    height: 150px;
+    float: left;
+    border-right: 3px dotted #343434;
+}
+#ramka2wyg {
+    width: 245px;
+    height: 150px;
+    float: right;
+    margin-top: -150px;
+    padding-left: 20px;
+}
+ul {
+    list-style-type: circle;
+}
+li {
+    margin-bottom: 10px;
+    text-align: left;
+}
