@@ -302,4 +302,12 @@ body {
     padding-left: 20px;
     text-align: left;
 }
-
+.segr {
+    color: #4e7b7a;
+    width: auto;
+    height: auto;
+    font-weight: 900;
+    font-family: Baumans;
+    font-size: 20px;
+    margin-right: 15px;
+}
