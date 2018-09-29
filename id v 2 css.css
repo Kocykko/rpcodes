@@ -241,9 +241,9 @@ body {
 
 }
 #Sila {
-    width: 50%;
-    background-color: #62929a;
-}
+     width: 50%;
+     background-color: #62929a;
+ }
 #Wytzyymalosc {
     width: 40%;
     background-color: #62929a;
@@ -268,6 +268,128 @@ body {
     width: 80%;
     background-color: #62929a;
 }
+
+
+#Sila2 {
+    width: 30%;
+    background-color: #62929a;
+}
+#Wytzyymalosc2 {
+    width: 40%;
+    background-color: #62929a;
+}
+#Zwinnosc2 {
+    width: 30%;
+    background-color: #62929a;
+}
+#Percepcja2 {
+    width: 50%;
+    background-color: #62929a;
+}
+#charyzma2 {
+    width: 60%;
+    background-color: #62929a;
+}
+#roztropnosc2 {
+    width: 20%;
+    background-color: #62929a;
+}
+#inteligencja2 {
+    width: 70%;
+    background-color: #62929a;
+}
+
+
+#Sila3 {
+    width: 50%;
+    background-color: #62929a;
+}
+#Wytzyymalosc3 {
+    width: 40%;
+    background-color: #62929a;
+}
+#Zwinnosc3 {
+    width: 30%;
+    background-color: #62929a;
+}
+#Percepcja3 {
+    width: 20%;
+    background-color: #62929a;
+}
+#charyzma3 {
+    width: 10%;
+    background-color: #62929a;
+}
+#roztropnosc3 {
+    width: 60%;
+    background-color: #62929a;
+}
+#inteligencja3 {
+    width: 80%;
+    background-color: #62929a;
+}
+
+
+#Sila4 {
+    width: 50%;
+    background-color: #62929a;
+}
+#Wytzyymalosc4 {
+    width: 40%;
+    background-color: #62929a;
+}
+#Zwinnosc4 {
+    width: 30%;
+    background-color: #62929a;
+}
+#Percepcja4 {
+    width: 20%;
+    background-color: #62929a;
+}
+#charyzma4 {
+    width: 10%;
+    background-color: #62929a;
+}
+#roztropnosc4 {
+    width: 60%;
+    background-color: #62929a;
+}
+#inteligencja4 {
+    width: 80%;
+    background-color: #62929a;
+}
+
+
+#Sila5 {
+    width: 50%;
+    background-color: #62929a;
+}
+#Wytzyymalosc5 {
+    width: 40%;
+    background-color: #62929a;
+}
+#Zwinnosc5 {
+    width: 30%;
+    background-color: #62929a;
+}
+#Percepcja5 {
+    width: 20%;
+    background-color: #62929a;
+}
+#charyzma5 {
+    width: 10%;
+    background-color: #62929a;
+}
+#roztropnosc5 {
+    width: 60%;
+    background-color: #62929a;
+}
+#inteligencja5 {
+    width: 80%;
+    background-color: #62929a;
+}
+
+
 #ramkachar {
     width: 265px;
     height: 280px;
@@ -313,5 +435,5 @@ body {
     z-index:2;
     margin: 0 auto;
     margin-top: -200px;
-
 }
+
