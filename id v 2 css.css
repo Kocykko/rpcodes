@@ -241,31 +241,31 @@ body {
 
 }
 #Sila {
-     width: 10%;
+     width: 30%;
      background-color: #62929a;
  }
 #Wytzyymalosc {
-    width: 40%;
+    width: 70%;
     background-color: #62929a;
 }
 #Zwinnosc {
-    width: 30%;
+    width: 50%;
     background-color: #62929a;
 }
 #Percepcja {
-    width: 20%;
-    background-color: #62929a;
-}
-#charyzma {
-    width: 10%;
-    background-color: #62929a;
-}
-#roztropnosc {
     width: 60%;
     background-color: #62929a;
 }
+#charyzma {
+    width: 20%;
+    background-color: #62929a;
+}
+#roztropnosc {
+    width: 20%;
+    background-color: #62929a;
+}
 #inteligencja {
-    width: 80%;
+    width: 50%;
     background-color: #62929a;
 }
 
@@ -301,31 +301,31 @@ body {
 
 
 #Sila3 {
-    width: 80%;
-    background-color: #62929a;
-}
-#Wytzyymalosc3 {
-    width: 40%;
-    background-color: #62929a;
-}
-#Zwinnosc3 {
-    width: 30%;
-    background-color: #62929a;
-}
-#Percepcja3 {
     width: 20%;
     background-color: #62929a;
 }
-#charyzma3 {
-    width: 10%;
+#Wytzyymalosc3 {
+    width: 20%;
     background-color: #62929a;
 }
-#roztropnosc3 {
+#Zwinnosc3 {
     width: 60%;
     background-color: #62929a;
 }
+#Percepcja3 {
+    width: 30%;
+    background-color: #62929a;
+}
+#charyzma3 {
+    width: 20%;
+    background-color: #62929a;
+}
+#roztropnosc3 {
+    width: 20%;
+    background-color: #62929a;
+}
 #inteligencja3 {
-    width: 80%;
+    width: 30%;
     background-color: #62929a;
 }
 
