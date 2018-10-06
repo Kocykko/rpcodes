@@ -189,6 +189,7 @@ body {
     height: 290px;
     float: left;
     border-right: 3px dotted #343434;
+    text-align: left;
 }
 #ramka2 {
     width: 245px;
